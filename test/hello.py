@@ -2,6 +2,6 @@ from prefect import flow, task
 
 @flow(name='Testing',log_prints=True)
 def main():
-    print('hello world')
+    print('hello world test 2')
 
 #main()
